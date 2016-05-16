@@ -12,6 +12,16 @@
 		845598EF1CEA81FF002EDAB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845598ED1CEA81FE002EDAB4 /* Main.storyboard */; };
 		845598F11CEA81FF002EDAB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845598F01CEA81FF002EDAB4 /* Assets.xcassets */; };
 		845598F41CEA81FF002EDAB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845598F21CEA81FF002EDAB4 /* LaunchScreen.storyboard */; };
+		845599051CEA823B002EDAB4 /* archery.gif in Resources */ = {isa = PBXBuildFile; fileRef = 845598FC1CEA823B002EDAB4 /* archery.gif */; };
+		845599061CEA823B002EDAB4 /* athletics.gif in Resources */ = {isa = PBXBuildFile; fileRef = 845598FD1CEA823B002EDAB4 /* athletics.gif */; };
+		845599071CEA823B002EDAB4 /* badminton.gif in Resources */ = {isa = PBXBuildFile; fileRef = 845598FE1CEA823B002EDAB4 /* badminton.gif */; };
+		845599081CEA823B002EDAB4 /* basketball.gif in Resources */ = {isa = PBXBuildFile; fileRef = 845598FF1CEA823B002EDAB4 /* basketball.gif */; };
+		845599091CEA823B002EDAB4 /* beach-volleyball.gif in Resources */ = {isa = PBXBuildFile; fileRef = 845599001CEA823B002EDAB4 /* beach-volleyball.gif */; };
+		8455990A1CEA823B002EDAB4 /* boxing.gif in Resources */ = {isa = PBXBuildFile; fileRef = 845599011CEA823B002EDAB4 /* boxing.gif */; };
+		8455990B1CEA823B002EDAB4 /* canoe-slalom.gif in Resources */ = {isa = PBXBuildFile; fileRef = 845599021CEA823B002EDAB4 /* canoe-slalom.gif */; };
+		8455990C1CEA823B002EDAB4 /* canoe-sprint.gif in Resources */ = {isa = PBXBuildFile; fileRef = 845599031CEA823B002EDAB4 /* canoe-sprint.gif */; };
+		8455990D1CEA823B002EDAB4 /* events.plist in Resources */ = {isa = PBXBuildFile; fileRef = 845599041CEA823B002EDAB4 /* events.plist */; };
+		8455990F1CEA83F9002EDAB4 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8455990E1CEA83F9002EDAB4 /* Cell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +32,16 @@
 		845598F01CEA81FF002EDAB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		845598F31CEA81FF002EDAB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		845598F51CEA81FF002EDAB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		845598FC1CEA823B002EDAB4 /* archery.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = archery.gif; sourceTree = "<group>"; };
+		845598FD1CEA823B002EDAB4 /* athletics.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = athletics.gif; sourceTree = "<group>"; };
+		845598FE1CEA823B002EDAB4 /* badminton.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = badminton.gif; sourceTree = "<group>"; };
+		845598FF1CEA823B002EDAB4 /* basketball.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = basketball.gif; sourceTree = "<group>"; };
+		845599001CEA823B002EDAB4 /* beach-volleyball.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "beach-volleyball.gif"; sourceTree = "<group>"; };
+		845599011CEA823B002EDAB4 /* boxing.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = boxing.gif; sourceTree = "<group>"; };
+		845599021CEA823B002EDAB4 /* canoe-slalom.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "canoe-slalom.gif"; sourceTree = "<group>"; };
+		845599031CEA823B002EDAB4 /* canoe-sprint.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "canoe-sprint.gif"; sourceTree = "<group>"; };
+		845599041CEA823B002EDAB4 /* events.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = events.plist; sourceTree = "<group>"; };
+		8455990E1CEA83F9002EDAB4 /* Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +76,30 @@
 			children = (
 				845598E91CEA81FE002EDAB4 /* AppDelegate.swift */,
 				845598EB1CEA81FE002EDAB4 /* ViewController.swift */,
+				8455990E1CEA83F9002EDAB4 /* Cell.swift */,
 				845598ED1CEA81FE002EDAB4 /* Main.storyboard */,
 				845598F01CEA81FF002EDAB4 /* Assets.xcassets */,
 				845598F21CEA81FF002EDAB4 /* LaunchScreen.storyboard */,
 				845598F51CEA81FF002EDAB4 /* Info.plist */,
+				845598FB1CEA823B002EDAB4 /* Olympics_Pic */,
 			);
 			path = CollectionViewSample;
+			sourceTree = "<group>";
+		};
+		845598FB1CEA823B002EDAB4 /* Olympics_Pic */ = {
+			isa = PBXGroup;
+			children = (
+				845598FC1CEA823B002EDAB4 /* archery.gif */,
+				845598FD1CEA823B002EDAB4 /* athletics.gif */,
+				845598FE1CEA823B002EDAB4 /* badminton.gif */,
+				845598FF1CEA823B002EDAB4 /* basketball.gif */,
+				845599001CEA823B002EDAB4 /* beach-volleyball.gif */,
+				845599011CEA823B002EDAB4 /* boxing.gif */,
+				845599021CEA823B002EDAB4 /* canoe-slalom.gif */,
+				845599031CEA823B002EDAB4 /* canoe-sprint.gif */,
+				845599041CEA823B002EDAB4 /* events.plist */,
+			);
+			path = Olympics_Pic;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,8 +161,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				845598F41CEA81FF002EDAB4 /* LaunchScreen.storyboard in Resources */,
+				845599081CEA823B002EDAB4 /* basketball.gif in Resources */,
+				8455990A1CEA823B002EDAB4 /* boxing.gif in Resources */,
+				845599061CEA823B002EDAB4 /* athletics.gif in Resources */,
+				8455990C1CEA823B002EDAB4 /* canoe-sprint.gif in Resources */,
+				845599051CEA823B002EDAB4 /* archery.gif in Resources */,
+				8455990B1CEA823B002EDAB4 /* canoe-slalom.gif in Resources */,
+				845599071CEA823B002EDAB4 /* badminton.gif in Resources */,
 				845598F11CEA81FF002EDAB4 /* Assets.xcassets in Resources */,
+				845599091CEA823B002EDAB4 /* beach-volleyball.gif in Resources */,
 				845598EF1CEA81FF002EDAB4 /* Main.storyboard in Resources */,
+				8455990D1CEA823B002EDAB4 /* events.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +184,7 @@
 			files = (
 				845598EC1CEA81FE002EDAB4 /* ViewController.swift in Sources */,
 				845598EA1CEA81FE002EDAB4 /* AppDelegate.swift in Sources */,
+				8455990F1CEA83F9002EDAB4 /* Cell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
